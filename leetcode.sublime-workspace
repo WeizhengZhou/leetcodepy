@@ -3,6 +3,10 @@
 	{
 		"selected_items":
 		[
+			[
+				"long",
+				"longestPalindrome"
+			]
 		]
 	},
 	"buffers":
@@ -32,7 +36,7 @@
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 174.0,
 		"history":
 		[
 		]
@@ -48,17 +52,22 @@
 	},
 	"file_history":
 	[
+		"/Users/wzzhou/Documents/py/leetcodepy/longest_substring_wo_repeating_char.py",
+		"/Users/wzzhou/Documents/py/leetcodepy/longest_palindrom.py",
+		"/Users/wzzhou/Documents/py/leetcodepy/two_sum.py",
+		"/Users/wzzhou/Documents/py/leetcodepy/add_two_numbers.py",
 		"/Users/wzzhou/Documents/py/test.py"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 102.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -66,6 +75,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"if",
+			"right_index",
+			"left_index",
+			"print"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -73,6 +86,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"right",
+			"left"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -90,7 +105,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -121,7 +136,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 126.0
+		"height": 154.0
 	},
 	"output.find_results":
 	{
@@ -131,7 +146,7 @@
 	"project": "leetcode.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -166,7 +181,7 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 150.0,
