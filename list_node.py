@@ -3,6 +3,8 @@ class ListNode(object):
   >>> head = ListNode.FromList(['a', 'b', 'c'])
   >>> print str(head)
   a -> b -> c
+  >>> print str(ListNode.FromList([1, 3]))
+  1 -> 3
   """
 
   def __init__(self, x):
@@ -11,8 +13,8 @@ class ListNode(object):
 
   def __str__(self):
     if not self.next:
-      return self.val
-    return self.val + ' -> ' + str(self.next)
+      return str(self.val)
+    return str(self.val) + ' -> ' + str(self.next)
 
   @classmethod
   def FromList(cls, input_list):
