@@ -2,8 +2,7 @@
 
 class Solution(object):
   """
-  >>> Solution().methodX()
-  result
+  >>> solution = Solution()
   """
 
   def methodX(self):
