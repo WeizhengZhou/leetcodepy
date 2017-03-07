@@ -37,7 +37,7 @@ class Solution(object):
       if curr_counter == counter:
         solutions.append(i)
     return solutions
-
+    
 
 if __name__ == '__main__':
   import doctest
