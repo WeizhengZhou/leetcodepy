@@ -47,7 +47,7 @@ class Solution(object):
     if middle == 0:
       return middle
     elif nums[middle - 1] < target:
-      return middle - 1
+      return middle 
     else:
       return -1
 
