@@ -22,7 +22,8 @@ class Solution(object):
     INT_MAX = 2**31 - 1
     INT_MIN = -2**31
     if divisor == 0:
-      return if dividend > 0 else -2**32
+      return INT_MAX if dividend > 0 else -2**32
+    if dividend == INT_MIN AND divisor
     sign = self._getSign(dividend, divisor)
     dividend = abs(dividend)
     divisor = abs(divisor)
