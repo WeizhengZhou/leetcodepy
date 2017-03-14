@@ -29,7 +29,7 @@ class Solution(object):
     n = len(grid[0])
 
     dp = [[0 for j in range(n)] for i in range(m)]
-    dp[0][0] = 1
+    dp[0][0] = 0 if grid[0][0] else 1
     for j in range(1, n):
       if grid[0][j]:
         dp[0][j] = 0
